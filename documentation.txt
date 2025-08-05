@@ -1,3 +1,9 @@
+Update notes:
+05/08/25
+    Se modificó el nombre de la app, GeneradorDeContraseñas > ComplicadorDeContraseñas.
+    Los cambios fueron aplicados en el archivo index.html, y el nombre de la carpeta.
+
+
 Form container hexa background colors:
 #CCCCCC
 
