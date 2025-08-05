@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vmax;
+}
+
+button, input {
+    outline: none;
+}
+
+body {
+    background-color: #000;
+}
+
+/*Containers*/
+#mainContainer {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#passwdFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #CCCCCC;
+}
+#passwdForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Inputs*/
+#wordForPasswd {
+    width: 78%;
+    min-height: 2rem;
+    border: none;
+    border-radius: .5rem;
+    text-align: center;
+    background-color: #ececec;
+}
+
+/* Buttons */
+#passwdBtn {
+    width: 15%;
+    min-height: 2rem;
+    border: none;
+    border-radius: .5rem;
+    transition: 400ms;
+    background-color: #2795F5;
+    color: #FFFFFF;
+}
+
+#passwdBtn:hover, #passwdBtn:active, #passwdBtn:focus {
+    cursor: pointer;
+    transition: 400ms;
+    background-color: #63B2F8;
+}
+
+#copyBtn {
+    width: 10%;
+    min-height: 2rem;
+    border: none;
+    border-radius: .5rem;
+    transition: 400ms;
+    background-color: #2795F5;
+    color: #FFFFFF;
+}
+
+#copyBtn:hover, #copyBtn:active, #copyBtn:focus {
+    cursor: pointer;
+    transition: 400ms;
+    background-color: #63B2F8;
+}
+
+/* Info container */
+#tooltip {
+    width: 5%;
+    text-align: center;
+    align-content: center;
+    border: none;
+    border-radius: .5rem;
+    transition: 400ms;
+    background-color: #F4E80B;
+    color: #666666;
+}
+
+#tooltip:hover, #tooltip:active, #tooltip:focus {
+    cursor: pointer;
+    transition: 400ms;
+    background-color: #F8F063;
+    color: #999999;
+}
+
+#password {
+    width: 100%;
+    justify-content: space-between;
+    margin: .5rem auto auto auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #EDFAFF;
+}
+
+#passwdShowed {
+    align-content: center;
+    text-align: center;
+}
+
+#tooltipMsg, #lengthAlert {
+    width: 100%;
+    margin: .5rem auto auto auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #FFFBED;
+}
+
+/*media only screen and ()*/
+@media only screen and (max-width: 999px) {
+    #passwdForm {
+        flex-wrap: wrap;
+    }
+    #wordForPasswd {
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+    #passwdBtn {
+        width: 79%;
+    }
+    #tooltip {
+        width: 19%;
+    }
+    #password {
+        flex-direction: column;
+        align-items: center;
+    }
+    #passwdShowed {
+        margin-bottom: .5rem;
+    }
+}

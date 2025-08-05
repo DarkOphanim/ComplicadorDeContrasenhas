@@ -1,0 +1,22 @@
+Form container hexa background colors:
+#CCCCCC
+
+Button hexa background colors:
+#2795F5 for normal state
+#63B2F8 for hover, active or focus state
+
+Button hexa text color:
+#FFFFFF
+
+Tooltip hexa background colors:
+#F4E80B for normal state
+#F8F063 for hover, active or focus
+
+Tooltip hexa text colors:
+#666666
+
+Tooltip message hexa background colors:
+#FFFBED
+
+Tooltip message hexa text colors:
+#000000
